@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brillen in Jena reservieren und im Studio anprobieren | Musterstudio</title>
+  <meta name="description" content="Fassungen, Sonnenbrillen und Lesebrillen online aussuchen, reservieren und bei Musterstudio in Jena anprobieren. Bezahlung vor Ort, kein Versand.">
+  <meta name="robots" content="noindex">
+  <link rel="preload" href="fonts/bricolage-grotesque-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#inhalt">Zum Inhalt springen</a>
+
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="index.html">Musterstudio</a>
+      <nav class="nav" id="nav" aria-label="Hauptnavigation">
+        <a href="index.html">Start</a>
+        <a href="kontaktlinsen.html">Kontaktlinsen</a>
+        <a href="brillen.html" aria-current="page">Brillen</a>
+        <a href="index.html#kontakt">Kontakt</a>
+      </nav>
+      <a class="btn btn--primary" href="index.html#kontakt">Termin vereinbaren</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav">Menü</button>
+    </div>
+  </header>
+
+  <main id="inhalt">
+    <div class="wrap page-hero">
+      <h1>Brillen reservieren, im Studio anprobieren</h1>
+      <p class="lead">Suchen Sie sich eine Fassung aus und reservieren Sie sie. Wir legen sie für Sie zurück. Bezahlt wird vor Ort, einen Versand gibt es nicht.</p>
+      <p class="note">Brillengläser passend zu Ihrer Sehstärke besprechen wir bei der Anprobe. Der angezeigte Preis gilt für die Fassung.</p>
+    </div>
+
+    <section class="wrap section" aria-label="Produkte">
+      <div class="shop-tools">
+        <div class="chips" role="group" aria-label="Kategorie">
+          <button class="chip" type="button" data-category="Alle" aria-pressed="true">Alle</button>
+          <button class="chip" type="button" data-category="Fassungen" aria-pressed="false">Fassungen</button>
+          <button class="chip" type="button" data-category="Sonnenbrillen" aria-pressed="false">Sonnenbrillen</button>
+          <button class="chip" type="button" data-category="Lesebrillen" aria-pressed="false">Lesebrillen</button>
+        </div>
+        <label><input type="checkbox" id="only-stock"> Nur im Studio vorrätig</label>
+        <label>Sortieren
+          <select id="sort">
+            <option value="name">Name</option>
+            <option value="price-asc">Preis aufsteigend</option>
+            <option value="price-desc">Preis absteigend</option>
+          </select>
+        </label>
+        <p class="shop-count" id="shop-count" aria-live="polite"></p>
+      </div>
+
+      <ul class="grid" id="product-list"></ul>
+
+      <p class="note">Dies ist eine Demo mit Beispielmodellen. Modelle, Preise und Verfügbarkeit werden vor dem Livegang durch das echte Sortiment ersetzt.</p>
+    </section>
+  </main>
+
+  <dialog id="reserve" aria-labelledby="reserve-title">
+    <div class="dialog__body">
+      <div class="dialog__head">
+        <h2 id="reserve-title">Reservieren</h2>
+        <button class="dialog__close" type="button" id="reserve-close">Schließen</button>
+      </div>
+      <p>Wir legen die Brille für Sie zurück und bestätigen die Reservierung. Bezahlt wird erst im Studio.</p>
+      <form id="reserve-form" novalidate>
+        <input type="hidden" name="product" id="reserve-product">
+        <label class="field"><span>Name</span><input name="name" autocomplete="name" required></label>
+        <label class="field"><span>Telefon oder E-Mail</span><input name="contact" autocomplete="email" required></label>
+        <label class="field"><span>Wunschtag für die Anprobe (optional)</span><input name="day" placeholder="z. B. Donnerstagvormittag"></label>
+        <label class="field"><span>Hinweis (optional)</span><textarea name="note" rows="3" placeholder="z. B. gewünschte Lesestärke"></textarea></label>
+        <label class="check">
+          <input type="checkbox" name="privacy" required>
+          <span>Ich habe die <a href="#">Datenschutzerklärung</a> gelesen. Meine Angaben werden nur für diese Reservierung verwendet.</span>
+        </label>
+        <button class="btn btn--primary" type="submit">Reservierung per E-Mail senden</button>
+        <p class="status" id="reserve-status" role="status"></p>
+        <div id="reserve-fallback" hidden>
+          <label class="field" for="reserve-text"><span>Vorbereitete Nachricht an kontakt@example.de</span>
+            <textarea id="reserve-text" rows="8" readonly></textarea></label>
+          <button class="btn" type="button" id="reserve-copy">Text kopieren</button>
+        </div>
+      </form>
+    </div>
+  </dialog>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© <span id="year">2026</span> Musterstudio Optik, Jena (Demo mit Beispielinhalten)</p>
+      <ul>
+        <li><a href="tel:+493641000000">03641 000000</a></li>
+        <li><a href="#">Impressum</a></li>
+        <li><a href="#">Datenschutzerklärung</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="data/products.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/shop.js"></script>
+</body>
+</html>
