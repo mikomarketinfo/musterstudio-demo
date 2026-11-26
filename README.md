@@ -1,29 +1,24 @@
-# Musterstudio Optik – Demo einer Kontaktlinsen- und Optik-Website
+# Musterstudio Optik – Demo-Website (Version 2)
 
-Statische Demo (HTML, CSS, JavaScript, ohne Build-Schritt) mit einem fiktiven Studio. Name, Telefonnummer, E-Mail-Adresse und Produkte sind Beispiele.
-Öffnen: `index.html` im Browser, oder lokal mit `python3 -m http.server` und dann http://localhost:8000.
+Vollständig erfundene Demo für ein Kontaktlinsen- und Brillenstudio. Alle Namen, Adressen, Telefonnummern und Preise sind Beispiele. Die Seite ist `noindex`, verwendet keine Cookies und lädt keine externen Dienste (Schriften liegen im Repository).
 
 ## Seiten
+Start (Karussell, Leistungen, Brillen-Vorschau) · Über uns · Kontaktlinsen · Brillen (Mini-Shop: Karten mit Beschreibung und Preis, Reservierung zur Abholung im Studio, kein Versand, keine Online-Zahlung) · Low Vision · Technologie · Kontakt
 
-| Datei | Inhalt |
-| --- | --- |
-| `index.html` | Startseite mit Leistungsübersicht, Ablauf und Kontakt |
-| `kontaktlinsen.html` | Seite mit Sprungmenü, Termin-Buttons je Abschnitt und FAQ |
-| `brillen.html` | Mini-Shop: Produktkarten, Filter, Reservierung zur Abholung im Studio (keine Zahlung, kein Versand) |
-| `data/products.js` | Beispielprodukte; hier Modelle, Preise und Verfügbarkeit pflegen |
+## Chat-Assistent
+Unten rechts: „Fragen und Termin“. Regelbasiert, ohne KI und ohne Server.
+- Beantwortet häufige Fragen (Ablauf, Kosten/Krankenkasse, Kontrolltermine, Linsenarten, Öffnungszeiten, Adresse, Datenschutz).
+- Nennt keine Preise für Anpassung und Beratung; Preise gibt es nur bei Brillen und Fassungen.
+- Terminanfrage: Anliegen → Wunschzeit → Name → Kontakt → Zusammenfassung zum Kopieren.
+- In dieser Demo wird **nichts gesendet**. Für den Echtbetrieb wird die Anfrage an das Terminsystem oder per E-Mail des Studios übergeben (je nach System und Schnittstelle).
+- Bei Warnzeichen (Schmerz, Rötung usw.) verweist er an Ärztin oder Arzt.
 
-## Für den echten Einsatz anpassen
+## Anpassen
+- Daten des Studios: `js/chat.js` (Block `CFG`), Seitenköpfe/-füße in den HTML-Dateien
+- Produkte: `data/products.js`
+- Bilder: Illustrationen in `img/*.svg`; echte Fotos einfach unter gleichem Namen oder per `<img>` ersetzen
 
-- [ ] Name, Adresse, Öffnungszeiten, Telefon und E-Mail in `index.html` und in den Fußzeilen eintragen; LocalBusiness-Markup (JSON-LD) ergänzen.
-- [ ] Termin-Buttons (`index.html#kontakt`) auf das Online-Terminsystem verlinken.
-- [ ] Echte Fotos des Studios und der Produkte einbauen. Die Brillen-Bilder sind gezeichnete Platzhalter (`js/shop.js`, Funktion `glassesSvg`).
-- [ ] Beispielprodukte in `data/products.js` ersetzen und den Demo-Hinweis auf `brillen.html` entfernen.
-- [ ] Reservierung: Das Formular zeigt den vorbereiteten Text zum Kopieren und öffnet zusätzlich eine E-Mail (`mailto:`). Für den Betrieb an einen Formular-Dienst oder ein Backend anbinden.
-- [ ] Impressum und Datenschutzerklärung ergänzen (Links sind Platzhalter).
-- [ ] Medizinische Aussagen und Vertragsbedingungen fachlich und rechtlich prüfen lassen (Heilmittelwerbegesetz, Servicevereinbarung).
-- [ ] `<meta name="robots" content="noindex">` aus allen Seiten entfernen und Canonical-URLs setzen.
+## Veröffentlichen mit GitHub Pages
+Settings → Pages → Source: Deploy from branch → Branch `main`, Ordner `/ (root)` → Save. Adresse danach: `https://<benutzer>.github.io/musterstudio-demo/`
 
-## Technik
-
-- Schriften sind lokal eingebunden (keine Anfragen an Google Fonts): Bricolage Grotesque und Atkinson Hyperlegible, beide unter der SIL Open Font License.
-- Keine Cookies und keine Tracking-Skripte.
+Lokal ansehen: `python3 -m http.server` im Ordner, dann http://localhost:8000

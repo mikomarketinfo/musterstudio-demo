@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" width="800" height="533">
+<title>Mond und Kontaktlinse für das Tragen über Nacht</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e1f0f7"/><stop offset="1" stop-color="#f9fcfd"/></linearGradient>
+<radialGradient id="gl" cx=".35" cy=".3" r=".85"><stop offset="0" stop-color="#ffffff" stop-opacity=".97"/><stop offset="1" stop-color="#bfd9e4" stop-opacity=".7"/></radialGradient>
+</defs>
+<rect width="800" height="533" fill="url(#bg)"/>
+<g fill="none" stroke="#2c86ae" stroke-opacity=".11"><circle cx="140" cy="100" r="40" stroke-width="1.5"/><circle cx="140" cy="100" r="78" stroke-width="1.5"/><circle cx="140" cy="100" r="116" stroke-width="1.5"/><circle cx="140" cy="100" r="154" stroke-width="1.5"/><circle cx="140" cy="100" r="192" stroke-width="1.5"/><circle cx="140" cy="100" r="230" stroke-width="1.5"/><circle cx="140" cy="100" r="268" stroke-width="1.5"/><circle cx="140" cy="100" r="306" stroke-width="1.5"/><circle cx="140" cy="100" r="344" stroke-width="1.5"/><circle cx="140" cy="100" r="382" stroke-width="1.5"/></g>
+
+<defs><mask id="moon"><rect width="800" height="533" fill="#fff"/><circle cx="385" cy="200" r="100" fill="#000"/></mask></defs>
+<circle cx="320" cy="235" r="120" fill="#f0a81c" mask="url(#moon)"/>
+<path d="M560 110 l10 26 26 10 -26 10 -10 26 -10 -26 -26 -10 26 -10z" fill="#2c86ae"/>
+<path d="M650 220 l7 18 18 7 -18 7 -7 18 -7 -18 -18 -7 18 -7z" fill="#2c86ae" fill-opacity=".7"/>
+<path d="M470 90 l6 14 14 6 -14 6 -6 14 -6 -14 -14 -6 14 -6z" fill="#1b6483" fill-opacity=".6"/>
+<circle cx="560" cy="375" r="90" fill="url(#gl)" stroke="#1b6483" stroke-width="3"/><circle cx="560" cy="375" r="60" fill="none" stroke="#2c86ae" stroke-opacity=".4" stroke-width="2"/><circle cx="560" cy="375" r="30" fill="none" stroke="#2c86ae" stroke-opacity=".4" stroke-width="2"/><path d="M504 348 Q520 316 551 308" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-opacity=".9"/>
+<path d="M120 440 H280" stroke="#1b6483" stroke-width="5" stroke-linecap="round" stroke-opacity=".35"/>
+
+</svg>

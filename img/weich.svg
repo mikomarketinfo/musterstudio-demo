@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" width="800" height="533">
+<title>Weiche Kontaktlinse in einem Wassertropfen</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e1f0f7"/><stop offset="1" stop-color="#f9fcfd"/></linearGradient>
+<radialGradient id="gl" cx=".35" cy=".3" r=".85"><stop offset="0" stop-color="#ffffff" stop-opacity=".97"/><stop offset="1" stop-color="#bfd9e4" stop-opacity=".7"/></radialGradient>
+</defs>
+<rect width="800" height="533" fill="url(#bg)"/>
+<g fill="none" stroke="#2c86ae" stroke-opacity=".11"><circle cx="130" cy="440" r="40" stroke-width="1.5"/><circle cx="130" cy="440" r="78" stroke-width="1.5"/><circle cx="130" cy="440" r="116" stroke-width="1.5"/><circle cx="130" cy="440" r="154" stroke-width="1.5"/><circle cx="130" cy="440" r="192" stroke-width="1.5"/><circle cx="130" cy="440" r="230" stroke-width="1.5"/><circle cx="130" cy="440" r="268" stroke-width="1.5"/><circle cx="130" cy="440" r="306" stroke-width="1.5"/><circle cx="130" cy="440" r="344" stroke-width="1.5"/><circle cx="130" cy="440" r="382" stroke-width="1.5"/></g>
+
+<path d="M400 80 C400 80 245 262 245 345 a155 155 0 0 0 310 0 C555 262 400 80 400 80Z" fill="#d8e9ef" stroke="#1b6483" stroke-width="4"/>
+<path d="M300 365 Q400 265 500 365 Q400 335 300 365Z" fill="url(#gl)" stroke="#1b6483" stroke-width="4"/>
+<path d="M330 250 q20 -50 55 -75" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-opacity=".9"/>
+<circle cx="360" cy="395" r="10" fill="#fff" fill-opacity=".8"/><circle cx="440" cy="410" r="7" fill="#fff" fill-opacity=".8"/>
+<circle cx="630" cy="170" r="70" fill="url(#gl)" stroke="#1b6483" stroke-width="3"/><circle cx="630" cy="170" r="35" fill="none" stroke="#2c86ae" stroke-opacity=".4" stroke-width="2"/><path d="M587 149 Q598 124 623 118" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-opacity=".9"/><circle cx="170" cy="150" r="14" fill="#f0a81c" fill-opacity=".85"/>
+
+</svg>

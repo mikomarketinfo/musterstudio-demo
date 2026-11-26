@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" width="800" height="533">
+<title>Kartenausschnitt mit Standortmarkierung</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e1f0f7"/><stop offset="1" stop-color="#f9fcfd"/></linearGradient>
+<radialGradient id="gl" cx=".35" cy=".3" r=".85"><stop offset="0" stop-color="#ffffff" stop-opacity=".97"/><stop offset="1" stop-color="#bfd9e4" stop-opacity=".7"/></radialGradient>
+</defs>
+<rect width="800" height="533" fill="url(#bg)"/>
+<g fill="none" stroke="#2c86ae" stroke-opacity=".11"><circle cx="700" cy="460" r="40" stroke-width="1.5"/><circle cx="700" cy="460" r="78" stroke-width="1.5"/><circle cx="700" cy="460" r="116" stroke-width="1.5"/><circle cx="700" cy="460" r="154" stroke-width="1.5"/><circle cx="700" cy="460" r="192" stroke-width="1.5"/><circle cx="700" cy="460" r="230" stroke-width="1.5"/><circle cx="700" cy="460" r="268" stroke-width="1.5"/><circle cx="700" cy="460" r="306" stroke-width="1.5"/><circle cx="700" cy="460" r="344" stroke-width="1.5"/><circle cx="700" cy="460" r="382" stroke-width="1.5"/></g>
+
+<rect width="800" height="533" fill="#e9f3f7"/><path d="M0 140 H800" stroke="#fff" stroke-width="18" fill="none" stroke-linecap="round"/><path d="M0 330 H800" stroke="#fff" stroke-width="18" fill="none" stroke-linecap="round"/><path d="M220 0 V533" stroke="#fff" stroke-width="16" fill="none" stroke-linecap="round"/><path d="M560 0 V533" stroke="#fff" stroke-width="16" fill="none" stroke-linecap="round"/><path d="M0 440 L800 250" stroke="#fff" stroke-width="10" fill="none" stroke-linecap="round"/><path d="M390 0 L450 533" stroke="#fff" stroke-width="10" fill="none" stroke-linecap="round"/>
+<path d="M-20 420 C150 380 260 470 400 430 C540 390 640 470 820 400" fill="none" stroke="#bfd9e4" stroke-width="40" stroke-linecap="round"/>
+<ellipse cx="400" cy="345" rx="48" ry="12" fill="#1b6483" fill-opacity=".22"/>
+<path d="M400 340 C340 262 322 232 322 200 a78 78 0 0 1 156 0 c0 32 -18 62 -78 140z" fill="#f0a81c" stroke="#1b6483" stroke-width="5"/>
+<circle cx="400" cy="200" r="28" fill="#fff"/>
+
+</svg>

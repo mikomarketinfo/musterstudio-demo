@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" width="800" height="533">
+<title>Brille mit Preisschild</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e1f0f7"/><stop offset="1" stop-color="#f9fcfd"/></linearGradient>
+<radialGradient id="gl" cx=".35" cy=".3" r=".85"><stop offset="0" stop-color="#ffffff" stop-opacity=".97"/><stop offset="1" stop-color="#bfd9e4" stop-opacity=".7"/></radialGradient>
+</defs>
+<rect width="800" height="533" fill="url(#bg)"/>
+<g fill="none" stroke="#2c86ae" stroke-opacity=".11"><circle cx="680" cy="460" r="40" stroke-width="1.5"/><circle cx="680" cy="460" r="78" stroke-width="1.5"/><circle cx="680" cy="460" r="116" stroke-width="1.5"/><circle cx="680" cy="460" r="154" stroke-width="1.5"/><circle cx="680" cy="460" r="192" stroke-width="1.5"/><circle cx="680" cy="460" r="230" stroke-width="1.5"/><circle cx="680" cy="460" r="268" stroke-width="1.5"/><circle cx="680" cy="460" r="306" stroke-width="1.5"/><circle cx="680" cy="460" r="344" stroke-width="1.5"/><circle cx="680" cy="460" r="382" stroke-width="1.5"/></g>
+
+<circle cx="285" cy="255" r="105" fill="url(#gl)" stroke="#1b6483" stroke-width="12"/>
+<circle cx="515" cy="255" r="105" fill="url(#gl)" stroke="#1b6483" stroke-width="12"/>
+<path d="M388 235 q12 -24 24 0" fill="none" stroke="#1b6483" stroke-width="12" stroke-linecap="round"/>
+<path d="M181 238 L112 214 M619 238 L688 214" stroke="#1b6483" stroke-width="12" stroke-linecap="round"/>
+<path d="M215 200 q20 -38 66 -48" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-opacity=".9"/>
+<path d="M445 200 q20 -38 66 -48" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-opacity=".9"/>
+<g transform="rotate(-8 600 410)"><path d="M520 385 h140 l24 25 -24 25 h-140z" fill="#f0a81c"/><circle cx="535" cy="410" r="6" fill="#fff"/>
+<text x="610" y="418" text-anchor="middle" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="24" font-weight="700" fill="#12323f">89 €</text></g>
+
+</svg>

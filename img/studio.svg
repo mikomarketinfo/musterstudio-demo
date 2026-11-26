@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" width="800" height="533">
+<title>Schaufenster eines Optik-Studios mit gestreifter Markise</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e1f0f7"/><stop offset="1" stop-color="#f9fcfd"/></linearGradient>
+<radialGradient id="gl" cx=".35" cy=".3" r=".85"><stop offset="0" stop-color="#ffffff" stop-opacity=".97"/><stop offset="1" stop-color="#bfd9e4" stop-opacity=".7"/></radialGradient>
+</defs>
+<rect width="800" height="533" fill="url(#bg)"/>
+<g fill="none" stroke="#2c86ae" stroke-opacity=".11"><circle cx="110" cy="80" r="40" stroke-width="1.5"/><circle cx="110" cy="80" r="78" stroke-width="1.5"/><circle cx="110" cy="80" r="116" stroke-width="1.5"/><circle cx="110" cy="80" r="154" stroke-width="1.5"/><circle cx="110" cy="80" r="192" stroke-width="1.5"/><circle cx="110" cy="80" r="230" stroke-width="1.5"/><circle cx="110" cy="80" r="268" stroke-width="1.5"/><circle cx="110" cy="80" r="306" stroke-width="1.5"/><circle cx="110" cy="80" r="344" stroke-width="1.5"/><circle cx="110" cy="80" r="382" stroke-width="1.5"/></g>
+
+<rect x="90" y="410" width="620" height="14" rx="7" fill="#bfd9e4"/>
+<rect x="150" y="150" width="500" height="260" rx="10" fill="#fff" stroke="#1b6483" stroke-width="4"/>
+<path d="M130 150 H670 L640 90 H160 Z" fill="#2c86ae"/><polygon points="190,150 250,150 266.7,90 213.3,90" fill="#fff" fill-opacity=".85"/><polygon points="310,150 370,150 373.3,90 320.0,90" fill="#fff" fill-opacity=".85"/><polygon points="430,150 490,150 480.0,90 426.6,90" fill="#fff" fill-opacity=".85"/><polygon points="550,150 610,150 586.6,90 533.3,90" fill="#fff" fill-opacity=".85"/>
+<rect x="300" y="108" width="200" height="30" rx="15" fill="#fff"/>
+<circle cx="365" cy="123" r="9" fill="none" stroke="#12323f" stroke-width="3"/><circle cx="395" cy="123" r="9" fill="none" stroke="#12323f" stroke-width="3"/><path d="M374 121 q6 -6 12 0" fill="none" stroke="#12323f" stroke-width="3"/>
+<rect x="190" y="195" width="270" height="165" rx="8" fill="#d8e9ef" stroke="#1b6483" stroke-width="3"/>
+<circle cx="275" cy="270" r="36" fill="#fff" fill-opacity=".85" stroke="#12323f" stroke-width="5"/><circle cx="375" cy="270" r="36" fill="#fff" fill-opacity=".85" stroke="#12323f" stroke-width="5"/><path d="M311 266 q14 -16 28 0" fill="none" stroke="#12323f" stroke-width="5"/>
+<rect x="212" y="320" width="226" height="8" rx="4" fill="#1b6483" fill-opacity=".25"/>
+<rect x="500" y="195" width="115" height="215" rx="8" fill="#f0a81c" stroke="#1b6483" stroke-width="3"/>
+<rect x="520" y="215" width="75" height="90" rx="6" fill="#fff" fill-opacity=".6"/><circle cx="592" cy="330" r="7" fill="#fff"/>
+<ellipse cx="690" cy="395" rx="22" ry="8" fill="#1b6483" fill-opacity=".2"/><path d="M690 395 q-34 -40 -12 -80 q20 30 12 80 q34 -40 18 -86 q-26 36 -18 86z" fill="#5aa07a"/>
+
+</svg>

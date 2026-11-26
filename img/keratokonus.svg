@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" width="800" height="533">
+<title>Hornhaut mit Keratokonus im Querschnitt und Hornhautkarte</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e1f0f7"/><stop offset="1" stop-color="#f9fcfd"/></linearGradient>
+<radialGradient id="gl" cx=".35" cy=".3" r=".85"><stop offset="0" stop-color="#ffffff" stop-opacity=".97"/><stop offset="1" stop-color="#bfd9e4" stop-opacity=".7"/></radialGradient>
+</defs>
+<rect width="800" height="533" fill="url(#bg)"/>
+<g fill="none" stroke="#2c86ae" stroke-opacity=".11"><circle cx="700" cy="450" r="40" stroke-width="1.5"/><circle cx="700" cy="450" r="78" stroke-width="1.5"/><circle cx="700" cy="450" r="116" stroke-width="1.5"/><circle cx="700" cy="450" r="154" stroke-width="1.5"/><circle cx="700" cy="450" r="192" stroke-width="1.5"/><circle cx="700" cy="450" r="230" stroke-width="1.5"/><circle cx="700" cy="450" r="268" stroke-width="1.5"/><circle cx="700" cy="450" r="306" stroke-width="1.5"/><circle cx="700" cy="450" r="344" stroke-width="1.5"/><circle cx="700" cy="450" r="382" stroke-width="1.5"/></g>
+
+<path d="M70 345 C170 335 200 205 250 165 C300 205 330 335 430 345 L430 430 L70 430Z" fill="#d8e9ef" stroke="#1b6483" stroke-width="6" stroke-linejoin="round"/>
+<path d="M60 335 C160 322 192 170 250 120 C308 170 340 322 440 335" fill="none" stroke="#f0a81c" stroke-width="7" stroke-linecap="round"/>
+<path d="M250 100 v-30" stroke="#12323f" stroke-width="3" stroke-dasharray="6 6"/>
+<circle cx="600" cy="270" r="110" fill="#bfd9e4" stroke="#fff" stroke-width="2"/><circle cx="594" cy="277" r="91" fill="#8fc0d6" stroke="#fff" stroke-width="2"/><circle cx="588" cy="284" r="72" fill="#2c86ae" stroke="#fff" stroke-width="2"/><circle cx="582" cy="291" r="53" fill="#5aa07a" stroke="#fff" stroke-width="2"/><circle cx="576" cy="298" r="34" fill="#e6c24a" stroke="#fff" stroke-width="2"/><circle cx="570" cy="305" r="15" fill="#f0a81c" stroke="#fff" stroke-width="2"/>
+
+</svg>

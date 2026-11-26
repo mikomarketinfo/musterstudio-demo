@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" width="800" height="533">
+<title>Hornhauttopograph mit Ringen und farbiger Hornhautkarte</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e1f0f7"/><stop offset="1" stop-color="#f9fcfd"/></linearGradient>
+<radialGradient id="gl" cx=".35" cy=".3" r=".85"><stop offset="0" stop-color="#ffffff" stop-opacity=".97"/><stop offset="1" stop-color="#bfd9e4" stop-opacity=".7"/></radialGradient>
+</defs>
+<rect width="800" height="533" fill="url(#bg)"/>
+<g fill="none" stroke="#2c86ae" stroke-opacity=".11"><circle cx="700" cy="460" r="40" stroke-width="1.5"/><circle cx="700" cy="460" r="78" stroke-width="1.5"/><circle cx="700" cy="460" r="116" stroke-width="1.5"/><circle cx="700" cy="460" r="154" stroke-width="1.5"/><circle cx="700" cy="460" r="192" stroke-width="1.5"/><circle cx="700" cy="460" r="230" stroke-width="1.5"/><circle cx="700" cy="460" r="268" stroke-width="1.5"/><circle cx="700" cy="460" r="306" stroke-width="1.5"/><circle cx="700" cy="460" r="344" stroke-width="1.5"/><circle cx="700" cy="460" r="382" stroke-width="1.5"/></g>
+
+<circle cx="400" cy="235" r="190" fill="#1b6483" stroke="#1b6483" stroke-width="2"/><circle cx="400" cy="235" r="158" fill="#fff" stroke="#1b6483" stroke-width="2"/><circle cx="400" cy="235" r="126" fill="#1b6483" stroke="#1b6483" stroke-width="2"/><circle cx="400" cy="235" r="94" fill="#fff" stroke="#1b6483" stroke-width="2"/><circle cx="400" cy="235" r="62" fill="#1b6483" stroke="#1b6483" stroke-width="2"/>
+<circle cx="400" cy="235" r="30" fill="#12323f"/><circle cx="400" cy="235" r="11" fill="#f0a81c"/>
+<rect x="385" y="425" width="30" height="40" fill="#1b6483"/><rect x="320" y="462" width="160" height="22" rx="11" fill="#1b6483"/>
+<g transform="translate(650 200)"><circle cx="0" cy="0" r="70" fill="#bfd9e4" stroke="#fff" stroke-width="2"/><circle cx="-3" cy="4" r="56" fill="#2c86ae" stroke="#fff" stroke-width="2"/><circle cx="-6" cy="8" r="42" fill="#5aa07a" stroke="#fff" stroke-width="2"/><circle cx="-9" cy="12" r="28" fill="#f0a81c" stroke="#fff" stroke-width="2"/></g>
+<path d="M600 260 q-30 -4 -26 -30" fill="none" stroke="#1b6483" stroke-width="3" stroke-dasharray="5 6"/>
+
+</svg>

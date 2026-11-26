@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" width="800" height="533">
+<title>Mehrstärkenlinse mit Zonen für Ferne und Nähe</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e1f0f7"/><stop offset="1" stop-color="#f9fcfd"/></linearGradient>
+<radialGradient id="gl" cx=".35" cy=".3" r=".85"><stop offset="0" stop-color="#ffffff" stop-opacity=".97"/><stop offset="1" stop-color="#bfd9e4" stop-opacity=".7"/></radialGradient>
+</defs>
+<rect width="800" height="533" fill="url(#bg)"/>
+<g fill="none" stroke="#2c86ae" stroke-opacity=".11"><circle cx="120" cy="450" r="40" stroke-width="1.5"/><circle cx="120" cy="450" r="78" stroke-width="1.5"/><circle cx="120" cy="450" r="116" stroke-width="1.5"/><circle cx="120" cy="450" r="154" stroke-width="1.5"/><circle cx="120" cy="450" r="192" stroke-width="1.5"/><circle cx="120" cy="450" r="230" stroke-width="1.5"/><circle cx="120" cy="450" r="268" stroke-width="1.5"/><circle cx="120" cy="450" r="306" stroke-width="1.5"/><circle cx="120" cy="450" r="344" stroke-width="1.5"/><circle cx="120" cy="450" r="382" stroke-width="1.5"/></g>
+
+<circle cx="400" cy="266" r="175" fill="#bfd9e4" fill-opacity=".55" stroke="#1b6483" stroke-width="4"/>
+<circle cx="400" cy="266" r="120" fill="#d8e9ef" stroke="#1b6483" stroke-width="3"/>
+<circle cx="400" cy="266" r="62" fill="#f0a81c" fill-opacity=".92" stroke="#1b6483" stroke-width="3"/>
+<path d="M330 150 Q360 108 420 98" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-opacity=".9"/>
+<text x="115" y="272" text-anchor="middle" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="26" fill="#12323f">Ferne</text>
+<text x="685" y="272" text-anchor="middle" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="26" fill="#12323f">Nähe</text>
+
+</svg>

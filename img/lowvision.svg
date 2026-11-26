@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" width="800" height="533">
+<title>Lupe vergrößert eine Textzeile</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e1f0f7"/><stop offset="1" stop-color="#f9fcfd"/></linearGradient>
+<radialGradient id="gl" cx=".35" cy=".3" r=".85"><stop offset="0" stop-color="#ffffff" stop-opacity=".97"/><stop offset="1" stop-color="#bfd9e4" stop-opacity=".7"/></radialGradient>
+</defs>
+<rect width="800" height="533" fill="url(#bg)"/>
+<g fill="none" stroke="#2c86ae" stroke-opacity=".11"><circle cx="680" cy="100" r="40" stroke-width="1.5"/><circle cx="680" cy="100" r="78" stroke-width="1.5"/><circle cx="680" cy="100" r="116" stroke-width="1.5"/><circle cx="680" cy="100" r="154" stroke-width="1.5"/><circle cx="680" cy="100" r="192" stroke-width="1.5"/><circle cx="680" cy="100" r="230" stroke-width="1.5"/><circle cx="680" cy="100" r="268" stroke-width="1.5"/><circle cx="680" cy="100" r="306" stroke-width="1.5"/><circle cx="680" cy="100" r="344" stroke-width="1.5"/><circle cx="680" cy="100" r="382" stroke-width="1.5"/></g>
+
+<defs><clipPath id="mag"><circle cx="440" cy="270" r="112"/></clipPath></defs>
+<rect x="110" y="105" width="540" height="16" rx="8" fill="#b4cbd5"/><rect x="110" y="149" width="470" height="16" rx="8" fill="#b4cbd5"/><rect x="110" y="193" width="560" height="16" rx="8" fill="#b4cbd5"/><rect x="110" y="237" width="410" height="16" rx="8" fill="#b4cbd5"/><rect x="110" y="281" width="520" height="16" rx="8" fill="#b4cbd5"/><rect x="110" y="325" width="480" height="16" rx="8" fill="#b4cbd5"/><rect x="110" y="369" width="540" height="16" rx="8" fill="#b4cbd5"/><rect x="110" y="413" width="300" height="16" rx="8" fill="#b4cbd5"/>
+<circle cx="440" cy="270" r="112" fill="#fff" fill-opacity=".92"/>
+<g clip-path="url(#mag)"><rect x="300" y="205" width="260" height="34" rx="17" fill="#12323f"/><rect x="300" y="262" width="210" height="34" rx="17" fill="#2c86ae"/><rect x="300" y="319" width="240" height="34" rx="17" fill="#12323f"/></g>
+<circle cx="440" cy="270" r="112" fill="none" stroke="#1b6483" stroke-width="14"/>
+<path d="M522 352 L640 470" stroke="#1b6483" stroke-width="28" stroke-linecap="round"/>
+<path d="M380 190 q22 -28 58 -34" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-opacity=".9"/>
+
+</svg>

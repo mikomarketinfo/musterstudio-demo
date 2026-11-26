@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" width="800" height="533">
+<title>Kalender mit Terminen und Linsenbehälter</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e1f0f7"/><stop offset="1" stop-color="#f9fcfd"/></linearGradient>
+<radialGradient id="gl" cx=".35" cy=".3" r=".85"><stop offset="0" stop-color="#ffffff" stop-opacity=".97"/><stop offset="1" stop-color="#bfd9e4" stop-opacity=".7"/></radialGradient>
+</defs>
+<rect width="800" height="533" fill="url(#bg)"/>
+<g fill="none" stroke="#2c86ae" stroke-opacity=".11"><circle cx="700" cy="450" r="40" stroke-width="1.5"/><circle cx="700" cy="450" r="78" stroke-width="1.5"/><circle cx="700" cy="450" r="116" stroke-width="1.5"/><circle cx="700" cy="450" r="154" stroke-width="1.5"/><circle cx="700" cy="450" r="192" stroke-width="1.5"/><circle cx="700" cy="450" r="230" stroke-width="1.5"/><circle cx="700" cy="450" r="268" stroke-width="1.5"/><circle cx="700" cy="450" r="306" stroke-width="1.5"/><circle cx="700" cy="450" r="344" stroke-width="1.5"/><circle cx="700" cy="450" r="382" stroke-width="1.5"/></g>
+
+<rect x="180" y="110" width="320" height="310" rx="16" fill="#fff" stroke="#1b6483" stroke-width="4"/>
+<path d="M180 126 a16 16 0 0 1 16 -16 H484 a16 16 0 0 1 16 16 V180 H180Z" fill="#2c86ae"/>
+<rect x="240" y="92" width="14" height="36" rx="7" fill="#12323f"/><rect x="426" y="92" width="14" height="36" rx="7" fill="#12323f"/>
+<circle cx="235" cy="245" r="6" fill="#bfd9e4"/><circle cx="285" cy="245" r="18" fill="#f0a81c"/><path d="M277 245 l6 7 l11 -14" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="335" cy="245" r="6" fill="#bfd9e4"/><circle cx="385" cy="245" r="6" fill="#bfd9e4"/><circle cx="435" cy="245" r="6" fill="#bfd9e4"/><circle cx="235" cy="297" r="6" fill="#bfd9e4"/><circle cx="285" cy="297" r="6" fill="#bfd9e4"/><circle cx="335" cy="297" r="6" fill="#bfd9e4"/><circle cx="385" cy="297" r="18" fill="#f0a81c"/><path d="M377 297 l6 7 l11 -14" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="435" cy="297" r="6" fill="#bfd9e4"/><circle cx="235" cy="349" r="18" fill="#f0a81c"/><path d="M227 349 l6 7 l11 -14" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="285" cy="349" r="6" fill="#bfd9e4"/><circle cx="335" cy="349" r="6" fill="#bfd9e4"/><circle cx="385" cy="349" r="6" fill="#bfd9e4"/><circle cx="435" cy="349" r="6" fill="#bfd9e4"/>
+<rect x="540" y="290" width="190" height="110" rx="22" fill="#bfd9e4" stroke="#1b6483" stroke-width="4"/>
+<circle cx="600" cy="345" r="34" fill="#fff" stroke="#1b6483" stroke-width="3"/><circle cx="670" cy="345" r="34" fill="#fff" stroke="#1b6483" stroke-width="3"/>
+<text x="600" y="354" text-anchor="middle" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="26" fill="#1b6483">R</text>
+<text x="670" y="354" text-anchor="middle" font-family="Atkinson Hyperlegible, Arial, sans-serif" font-size="26" fill="#1b6483">L</text>
+
+</svg>

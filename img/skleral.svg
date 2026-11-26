@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" width="800" height="533">
+<title>Sklerallinse überbrückt die Hornhaut und liegt auf der Lederhaut auf</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e1f0f7"/><stop offset="1" stop-color="#f9fcfd"/></linearGradient>
+<radialGradient id="gl" cx=".35" cy=".3" r=".85"><stop offset="0" stop-color="#ffffff" stop-opacity=".97"/><stop offset="1" stop-color="#bfd9e4" stop-opacity=".7"/></radialGradient>
+</defs>
+<rect width="800" height="533" fill="url(#bg)"/>
+<g fill="none" stroke="#2c86ae" stroke-opacity=".11"><circle cx="700" cy="450" r="40" stroke-width="1.5"/><circle cx="700" cy="450" r="78" stroke-width="1.5"/><circle cx="700" cy="450" r="116" stroke-width="1.5"/><circle cx="700" cy="450" r="154" stroke-width="1.5"/><circle cx="700" cy="450" r="192" stroke-width="1.5"/><circle cx="700" cy="450" r="230" stroke-width="1.5"/><circle cx="700" cy="450" r="268" stroke-width="1.5"/><circle cx="700" cy="450" r="306" stroke-width="1.5"/><circle cx="700" cy="450" r="344" stroke-width="1.5"/><circle cx="700" cy="450" r="382" stroke-width="1.5"/></g>
+
+<g transform="translate(110 0)">
+<path d="M430 161 Q680 270 430 379 Z" fill="#e8f4fa" stroke="none"/>
+<circle cx="300" cy="270" r="170" fill="#fff" stroke="#1b6483" stroke-width="4"/>
+<path d="M460 212 Q548 270 460 328 Z" fill="#d8e9ef" stroke="#1b6483" stroke-width="4" stroke-linejoin="round"/>
+<path d="M458 212 L400 236 M458 328 L400 304" stroke="#1b6483" stroke-width="3" stroke-opacity=".5"/>
+<path d="M430 161 Q680 270 430 379" fill="none" stroke="#f0a81c" stroke-width="8" stroke-linecap="round"/>
+<circle cx="170" cy="270" r="46" fill="#bfd9e4" stroke="#1b6483" stroke-width="3"/><circle cx="170" cy="270" r="20" fill="#12323f"/>
+</g>
+
+</svg>
